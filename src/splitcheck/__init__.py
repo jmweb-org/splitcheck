@@ -5,7 +5,7 @@ from splitcheck.dataset import named_splits, rows_from_file
 from splitcheck.normalize import normalize_text
 from splitcheck.overlap import OverlapResult, overlap
 
-__version__ = "0.1.0"
+__version__ = "0.2.0"
 
 __all__ = [
     "OverlapResult",
