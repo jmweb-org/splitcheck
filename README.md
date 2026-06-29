@@ -23,7 +23,8 @@ splitcheck: worst leakage 2.1%
 ## Install
 
 ```console
-$ pip install splitcheck
+$ pip install splitcheck                 # from PyPI, once released
+$ pip install git+https://github.com/jmweb-org/splitcheck   # latest, available now
 ```
 
 Reads CSV, Parquet, JSON Lines, and plain text (one row per line) through polars.
